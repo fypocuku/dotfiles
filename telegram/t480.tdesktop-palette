@@ -1,0 +1,237 @@
+// t480 — палитра Telegram Desktop под сетап Sway
+// bg #0d0a16 · bg_alt #191a29 · surface #2d2146 · muted #605581
+// fg #dadefc · accent #7079e0 · lavender #a79bcd · pink #f2b8f0 · cyan #bbf0fe · urgent #e0789a
+
+// --- окна и общий текст ---
+windowBg: #191a29;
+windowFg: #dadefc;
+windowBgOver: #2d2146;
+windowBgRipple: #605581;
+windowFgOver: #dadefc;
+windowSubTextFg: #a79bcd;
+windowSubTextFgOver: #a79bcd;
+windowBoldFg: #dadefc;
+windowBoldFgOver: #dadefc;
+windowBgActive: #7079e0;
+windowFgActive: #0d0a16;
+windowActiveTextFg: #7079e0;
+windowShadowFg: #000000;
+windowShadowFgFallback: #0d0a16;
+shadowFg: #00000040;
+imageBg: #0d0a16;
+layerBg: #0d0a16b3;
+placeholderFg: #605581;
+placeholderFgActive: #a79bcd;
+inputBorderFg: #605581;
+filterInputBorderFg: #7079e0;
+filterInputInactiveBg: #2d2146;
+activeLineFg: #7079e0;
+activeLineFgError: #e0789a;
+checkboxFg: #605581;
+sliderBgInactive: #2d2146;
+sliderBgActive: #7079e0;
+tooltipBg: #2d2146;
+tooltipFg: #dadefc;
+tooltipBorderFg: #605581;
+radialFg: #7079e0;
+radialBg: #0d0a1680;
+
+// --- кнопки ---
+activeButtonBg: #7079e0;
+activeButtonBgOver: #a79bcd;
+activeButtonBgRipple: #605581;
+activeButtonFg: #0d0a16;
+activeButtonFgOver: #0d0a16;
+activeButtonSecondaryFg: #2d2146;
+activeButtonSecondaryFgOver: #2d2146;
+lightButtonBg: #191a29;
+lightButtonBgOver: #2d2146;
+lightButtonBgRipple: #605581;
+lightButtonFg: #7079e0;
+lightButtonFgOver: #a79bcd;
+attentionButtonFg: #e0789a;
+attentionButtonFgOver: #e0789a;
+attentionButtonBgOver: #2d2146;
+attentionButtonBgRipple: #605581;
+outlineButtonBg: #191a29;
+outlineButtonBgOver: #2d2146;
+outlineButtonOutlineFg: #7079e0;
+outlineButtonBgRipple: #605581;
+
+// --- меню, полосы прокрутки, заголовок ---
+menuBg: #191a29;
+menuBgOver: #2d2146;
+menuBgRipple: #605581;
+menuIconFg: #a79bcd;
+menuIconFgOver: #dadefc;
+menuSubmenuArrowFg: #a79bcd;
+menuFgDisabled: #605581;
+menuSeparatorFg: #2d2146;
+scrollBarBg: #60558199;
+scrollBarBgOver: #a79bcd;
+scrollBg: #2d214666;
+scrollBgOver: #2d2146;
+smallCloseIconFg: #605581;
+smallCloseIconFgOver: #a79bcd;
+cancelIconFg: #605581;
+cancelIconFgOver: #a79bcd;
+titleBg: #191a29;
+titleBgActive: #191a29;
+titleFg: #a79bcd;
+titleFgActive: #dadefc;
+titleButtonBg: #191a29;
+titleButtonFg: #a79bcd;
+titleButtonBgOver: #2d2146;
+titleButtonFgOver: #dadefc;
+titleShadow: #00000000;
+trayCounterBg: #f2b8f0;
+
+// --- диалоговые окна ---
+boxBg: #191a29;
+boxTextFg: #dadefc;
+boxTextFgGood: #bbf0fe;
+boxTextFgError: #e0789a;
+boxTitleFg: #dadefc;
+boxSearchBg: #191a29;
+boxTitleAdditionalFg: #a79bcd;
+boxTitleCloseFg: #605581;
+boxTitleCloseFgOver: #a79bcd;
+contactsBg: #191a29;
+contactsBgOver: #2d2146;
+contactsNameFg: #dadefc;
+contactsStatusFg: #a79bcd;
+contactsStatusFgOver: #a79bcd;
+contactsStatusFgOnline: #bbf0fe;
+
+// --- главное меню и боковая панель папок ---
+mainMenuBg: #191a29;
+mainMenuCoverBg: #2d2146;
+mainMenuCoverFg: #dadefc;
+sideBarBg: #0d0a16;
+sideBarBgActive: #2d2146;
+sideBarBgRipple: #605581;
+sideBarTextFg: #a79bcd;
+sideBarTextFgActive: #dadefc;
+sideBarIconFg: #a79bcd;
+sideBarIconFgActive: #7079e0;
+sideBarBadgeBg: #f2b8f0;
+sideBarBadgeFg: #0d0a16;
+
+// --- список чатов ---
+dialogsBg: #191a29;
+dialogsBgOver: #2d2146;
+dialogsBgActive: #605581;
+dialogsNameFg: #dadefc;
+dialogsNameFgOver: #dadefc;
+dialogsNameFgActive: #dadefc;
+dialogsChatIconFg: #a79bcd;
+dialogsChatIconFgOver: #a79bcd;
+dialogsChatIconFgActive: #dadefc;
+dialogsDateFg: #605581;
+dialogsDateFgOver: #a79bcd;
+dialogsDateFgActive: #dadefc;
+dialogsTextFg: #a79bcd;
+dialogsTextFgOver: #a79bcd;
+dialogsTextFgActive: #dadefc;
+dialogsTextFgService: #7079e0;
+dialogsTextFgServiceOver: #7079e0;
+dialogsTextFgServiceActive: #dadefc;
+dialogsDraftFg: #e0789a;
+dialogsDraftFgOver: #e0789a;
+dialogsDraftFgActive: #f2b8f0;
+dialogsVerifiedIconBg: #7079e0;
+dialogsVerifiedIconFg: #0d0a16;
+dialogsSendingIconFg: #605581;
+dialogsSentIconFg: #7079e0;
+dialogsSentIconFgActive: #dadefc;
+dialogsUnreadBg: #f2b8f0;
+dialogsUnreadBgOver: #f2b8f0;
+dialogsUnreadBgActive: #dadefc;
+dialogsUnreadBgMuted: #605581;
+dialogsUnreadBgMutedOver: #605581;
+dialogsUnreadBgMutedActive: #a79bcd;
+dialogsUnreadFg: #0d0a16;
+dialogsUnreadFgOver: #0d0a16;
+dialogsUnreadFgActive: #605581;
+dialogsMenuIconFg: #a79bcd;
+dialogsMenuIconFgOver: #dadefc;
+searchedBarBg: #0d0a16;
+searchedBarFg: #a79bcd;
+topBarBg: #191a29;
+
+// --- окно чата ---
+historyTextInFg: #dadefc;
+historyTextOutFg: #dadefc;
+historyCaptionInFg: #dadefc;
+historyCaptionOutFg: #dadefc;
+historyFileNameInFg: #dadefc;
+historyFileNameOutFg: #dadefc;
+historyOutIconFg: #bbf0fe;
+historyIconFgInverted: #0d0a16;
+historySendingOutIconFg: #a79bcd;
+historyLinkInFg: #bbf0fe;
+historyLinkOutFg: #bbf0fe;
+historyComposeAreaBg: #191a29;
+historyComposeAreaFg: #dadefc;
+historyComposeAreaFgService: #a79bcd;
+historyComposeIconFg: #a79bcd;
+historyComposeIconFgOver: #dadefc;
+historySendIconFg: #7079e0;
+historySendIconFgOver: #a79bcd;
+historyPinnedBg: #191a29;
+historyReplyBg: #191a29;
+historyReplyIconFg: #7079e0;
+historyReplyCancelFg: #605581;
+historyReplyCancelFgOver: #a79bcd;
+historyComposeButtonBg: #191a29;
+historyComposeButtonBgOver: #2d2146;
+historyComposeButtonBgRipple: #605581;
+historyUnreadBarBg: #2d2146;
+historyUnreadBarBorder: #2d2146;
+historyUnreadBarFg: #a79bcd;
+historyToDownBg: #191a29;
+historyToDownBgOver: #2d2146;
+historyToDownFg: #a79bcd;
+historyToDownFgOver: #dadefc;
+
+// --- сообщения ---
+msgInBg: #2d2146;
+msgInBgSelected: #605581;
+msgOutBg: #605581;
+msgOutBgSelected: #7079e0;
+msgSelectOverlay: #7079e033;
+msgStickerOverlay: #7079e066;
+msgInServiceFg: #7079e0;
+msgOutServiceFg: #bbf0fe;
+msgInShadow: #00000000;
+msgOutShadow: #00000000;
+msgInDateFg: #a79bcd;
+msgOutDateFg: #dadefc;
+msgInReplyBarColor: #7079e0;
+msgOutReplyBarColor: #bbf0fe;
+msgImgReplyBarColor: #dadefc;
+msgInMonoFg: #f2b8f0;
+msgOutMonoFg: #f2b8f0;
+msgServiceBg: #2d2146cc;
+msgServiceBgSelected: #605581cc;
+msgServiceFg: #dadefc;
+msgDateImgBg: #0d0a1699;
+msgDateImgFg: #dadefc;
+msgFileInBg: #7079e0;
+msgFileOutBg: #a79bcd;
+msgWaveformInActive: #7079e0;
+msgWaveformInInactive: #605581;
+msgWaveformOutActive: #dadefc;
+msgWaveformOutInactive: #a79bcd;
+
+// --- панель эмодзи и стикеров ---
+emojiPanBg: #191a29;
+emojiPanCategories: #0d0a16;
+emojiPanHeaderFg: #a79bcd;
+emojiPanHeaderBg: #191a29;
+
+// --- окно входа ---
+introBg: #191a29;
+introTitleFg: #dadefc;
+introDescriptionFg: #a79bcd;
+introErrorFg: #e0789a;
