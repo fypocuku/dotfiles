@@ -1,0 +1,47 @@
+{
+    "logo": {
+        "type": "sixel",
+        "source": "~/.config/fastfetch/logo.png",
+        "width": 30,
+        "height": 15,
+        "padding": {
+            "top": 1,
+            "left": 1,
+            "right": 3
+        }
+    },
+    "display": {
+        "separator": "  ",
+        "color": {
+            "title": "38;2;242;184;240",
+            "keys": "38;2;112;121;224",
+            "output": "38;2;218;222;252",
+            "separator": "38;2;96;85;129"
+        }
+    },
+    "modules": [
+        "title",
+        "separator",
+        "os",
+        "host",
+        "kernel",
+        "uptime",
+        "packages",
+        "shell",
+        "display",
+        "wm",
+        "cursor",
+        "terminal",
+        "terminalfont",
+        "cpu",
+        "gpu",
+        "memory",
+        "swap",
+        "disk",
+        "localip",
+        "battery",
+        "locale",
+        "break",
+        "colors"
+    ]
+}
