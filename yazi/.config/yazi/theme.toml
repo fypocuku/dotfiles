@@ -1,0 +1,23 @@
+[mgr]
+cwd = { fg = "#a79bcd" }
+hovered = { fg = "#dadefc", bg = "#2d2146" }
+preview_hovered = { fg = "#dadefc", bg = "#2d2146" }
+border_style = { fg = "#2d2146" }
+
+[mode]
+normal_main = { fg = "#0d0a16", bg = "#7079e0", bold = true }
+normal_alt  = { fg = "#7079e0", bg = "#191a29" }
+select_main = { fg = "#0d0a16", bg = "#f2b8f0", bold = true }
+select_alt  = { fg = "#f2b8f0", bg = "#191a29" }
+unset_main  = { fg = "#0d0a16", bg = "#e0789a", bold = true }
+unset_alt   = { fg = "#e0789a", bg = "#191a29" }
+
+[filetype]
+rules = [
+    { mime = "image/*", fg = "#f2b8f0" },
+    { mime = "video/*", fg = "#bbf0fe" },
+    { mime = "audio/*", fg = "#bbf0fe" },
+    { mime = "application/{zip,gzip,x-tar,x-7z-compressed,zstd}", fg = "#f0d7a8" },
+    { url = "*/", fg = "#7079e0" },
+    { url = "*", fg = "#dadefc" },
+]

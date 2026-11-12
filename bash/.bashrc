@@ -34,3 +34,12 @@ __prompt() {
     PS1="${host}${accent}\w${lavender}$(__git_ps1 " ${branch_icon} %s") ${status}${arrow}${reset} "
 }
 PROMPT_COMMAND=__prompt
+# yazi: команда y — после выхода остаться в последней открытой папке
+y() {
+    local tmp cwd
+    tmp="$(mktemp -t yazi-cwd.XXXXXX)"
+    yazi "$@" --cwd-file="$tmp"
+    IFS= read -r -d '' cwd < "$tmp"
+    [[ -n $cwd && $cwd != "$PWD" ]] && builtin cd -- "$cwd"
+    rm -f -- "$tmp"
+}
