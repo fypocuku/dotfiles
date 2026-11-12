@@ -1,0 +1,6 @@
+[Unit]
+Description=Проверка заряда батареи
+
+[Service]
+Type=oneshot
+ExecStart=%h/.local/bin/battery-notify.sh
