@@ -1,9 +1,9 @@
 font=JetBrainsMono Nerd Font 10
-background-color=#0d0a16
+background-color=#191a29eb
 text-color=#dadefc
 border-color=#7079e0
 border-size=2
-border-radius=0
+border-radius=4
 padding=10
 margin=8
 width=350
