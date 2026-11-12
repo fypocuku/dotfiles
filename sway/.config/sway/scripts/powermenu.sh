@@ -1,7 +1,7 @@
 #!/bin/bash
 # меню питания через fuzzel
 
-choice=$(printf '%s\n' lock suspend logout reboot shutdown \
+choice=$(printf '%s\n' lock suspend reboot shutdown \
     | fuzzel --dmenu --hide-prompt --lines 4 --width 24)
 
 case "$choice" in

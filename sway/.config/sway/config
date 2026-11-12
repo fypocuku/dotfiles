@@ -258,3 +258,15 @@ client.focused          $accent   $accent   $bg     $accent    $accent
 client.unfocused        $surface  $bg       $muted  $surface   $surface
 client.focused_inactive $surface  $bg_alt   $fg     $surface   $surface
 client.urgent           $urgent   $urgent   $bg     $urgent    $urgent
+# --- Тема GTK, иконки, курсор ---
+set $gnome-schema org.gnome.desktop.interface
+exec_always {
+    gsettings set $gnome-schema gtk-theme 'Adwaita-dark'
+    gsettings set $gnome-schema color-scheme 'prefer-dark'
+    gsettings set $gnome-schema icon-theme 'Papirus-Dark'
+    gsettings set $gnome-schema cursor-theme 'Bibata-Modern-Classic'
+    gsettings set $gnome-schema cursor-size 24
+    gsettings set $gnome-schema font-name 'Noto Sans 10'
+    gsettings set $gnome-schema monospace-font-name 'JetBrainsMono Nerd Font 10'
+}
+seat seat0 xcursor_theme Bibata-Modern-Classic 24

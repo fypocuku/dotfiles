@@ -1,0 +1,52 @@
+/* Палитра t480 для GTK4 / libadwaita */
+@define-color accent_color      #a79bcd;
+@define-color accent_bg_color   #7079e0;
+@define-color accent_fg_color   #0d0a16;
+
+@define-color window_bg_color   #0d0a16;
+@define-color window_fg_color   #dadefc;
+@define-color view_bg_color     #191a29;
+@define-color view_fg_color     #dadefc;
+
+@define-color headerbar_bg_color #191a29;
+@define-color headerbar_fg_color #dadefc;
+@define-color sidebar_bg_color   #191a29;
+@define-color card_bg_color      #191a29;
+@define-color popover_bg_color   #191a29;
+@define-color dialog_bg_color    #191a29;
+
+@define-color destructive_color  #e0789a;
+@define-color success_color      #8fd3c0;
+@define-color warning_color      #f0d7a8;
+/* «Чистый» GTK4 без libadwaita (pavucontrol и др.) */
+window.background {
+    background-color: rgba(13, 10, 22, 0.92);
+    color: #dadefc;
+}
+scale highlight,
+progressbar progress {
+    background-color: #7079e0;
+}
+notebook > header,
+notebook > stack {
+    background-color: transparent;
+}
+checkbutton check:checked,
+switch:checked {
+    background-color: #7079e0;
+}
+selection,
+*:selected {
+    background-color: #2d2146;
+    color: #dadefc;
+}
+button,
+dropdown > button,
+entry {
+    background-color: #191a29;
+    color: #dadefc;
+}
+button:hover,
+dropdown > button:hover {
+    background-color: #2d2146;
+}
