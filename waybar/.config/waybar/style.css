@@ -7,7 +7,7 @@
 }
 
 window#waybar {
-    background: #0d0a16;
+    background: rgba(13, 10, 22, 0.92);
     color: #dadefc;
 }
 
@@ -17,7 +17,7 @@ window#waybar {
     background: transparent;
 }
 #workspaces button:hover {
-    background: #191a29;
+    background: rgba(25, 26, 41, 0.92);
     box-shadow: none;
 }
 #workspaces button.focused {
@@ -35,7 +35,7 @@ window#waybar {
     padding: 0 10px;
 }
 #language, #pulseaudio, #network, #battery {
-    border-left: 1px solid #2d2146;
+    border-left: 1px solid rgba(45, 33, 70, 0.92);
 }
 
 #language   { color: #f2b8f0; }
