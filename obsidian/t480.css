@@ -1,0 +1,56 @@
+/* t480 — Obsidian в палитре сетапа */
+.theme-dark {
+    /* акцент #7079e0 в формате HSL: от него Obsidian считает оттенки кнопок, выделения и т.д. */
+    --accent-h: 235;
+    --accent-s: 64%;
+    --accent-l: 66%;
+
+    /* фоны */
+    --background-primary: #0d0a16;
+    --background-primary-alt: #191a29;
+    --background-secondary: #191a29;
+    --background-secondary-alt: #0d0a16;
+    --background-modifier-border: #2d2146;
+    --background-modifier-hover: #2d2146;
+    --background-modifier-active-hover: #2d2146;
+    --titlebar-background: #0d0a16;
+    --titlebar-background-focused: #0d0a16;
+    --ribbon-background: #0d0a16;
+
+    /* текст */
+    --text-normal: #dadefc;
+    --text-muted: #a79bcd;
+    --text-faint: #605581;
+    --text-accent: #7079e0;
+    --text-accent-hover: #a79bcd;
+    --text-on-accent: #0d0a16;
+    --text-selection: rgba(112, 121, 224, 0.3);
+    --interactive-accent: #7079e0;
+    --interactive-accent-hover: #a79bcd;
+
+    /* заголовки */
+    --h1-color: #f2b8f0;
+    --h2-color: #7079e0;
+    --h3-color: #a79bcd;
+    --h4-color: #bbf0fe;
+    --h5-color: #dadefc;
+    --h6-color: #dadefc;
+
+    /* ссылки, теги, код, цитаты */
+    --link-color: #bbf0fe;
+    --link-color-hover: #dadefc;
+    --link-external-color: #bbf0fe;
+    --link-unresolved-color: #605581;
+    --tag-color: #7079e0;
+    --tag-background: rgba(112, 121, 224, 0.15);
+    --code-normal: #f2b8f0;
+    --code-background: #191a29;
+    --blockquote-border-color: #7079e0;
+    --checkbox-color: #7079e0;
+
+    /* шрифты */
+    --font-interface-theme: "JetBrainsMono Nerd Font", "Noto Sans CJK JP";
+    --font-monospace-theme: "JetBrainsMono Nerd Font";
+    /* текст заметок — раскомментируй, если хочешь моноширинный и в заметках: */
+    /* --font-text-theme: "JetBrainsMono Nerd Font", "Noto Sans CJK JP"; */
+}
