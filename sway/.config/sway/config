@@ -274,3 +274,4 @@ for_window [app_id="com.anthropic.Claude"] opacity 0.92
 for_window [app_id="org.telegram.desktop"] opacity 0.92
 for_window [app_id="md.obsidian.Obsidian"] opacity 0.92
 for_window [class="^Chatgpt$"] opacity 0.92
+for_window [class="^Happ$"] opacity 0.92
